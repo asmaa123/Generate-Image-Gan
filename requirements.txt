@@ -1,20 +1,18 @@
-# Core
-streamlit==1.30.0
-rich==13.6.0
+# Streamlit
+streamlit==1.50.0
 
-# PyTorch (CPU-only, compatible with Python 3.13)
-torch==2.9.1
-torchvision==0.15.2
-torchaudio==2.9.2
+# PyTorch CPU-only
+torch==2.9.0
+torchvision==0.24.0
+torchaudio==2.9.0
 
-# Hugging Face Diffusers
+# Hugging Face Diffusers و Transformers
 diffusers==0.23.1
-transformers==4.35.0
-accelerate==0.23.0
-safetensors==0.3.1
+transformers==4.34.0
+accelerate==0.24.0
 
-# Image handling
+# مكتبات مساعدة
 Pillow==10.1.0
-
-# Optional (progress bar for diffusion pipelines)
+numpy==1.26.0
+scipy==1.12.1
 tqdm==4.66.1
